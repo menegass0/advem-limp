@@ -1,0 +1,33 @@
+
+
+:root{
+    --backgrounColor: #E2EAFC;
+    --primaryPink: #FDCCEF;
+    --lightPink: #FFDDF6;
+    --firstBlue: #79A1FF;
+    --secondhBlue: #ABC4FF;
+    --thirdBlue: #B6CCFE;
+    --fourthBlue: #CCDBFD;
+  
+    --placeholder: #676767;
+    --blueFont: #446FD6;
+  
+}
+
+.cont{
+    height: 100vh;
+    background: var(--backgrounColor);
+
+    .info{
+
+
+        .company-info{
+
+
+            h1{
+                font-size: 80px;
+                white-space: nowrap;
+            }
+        }
+    }
+}
