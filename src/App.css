@@ -19,3 +19,11 @@
   --blueFont: #446FD6;
 
 }
+
+body{
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  width: 0;
+}
