@@ -1,0 +1,86 @@
+:root{
+    --backgrounColor: #E2EAFC;
+    --primaryPink: #FDCCEF;
+    --lightPink: #FFDDF6;
+    --firstBlue: #79A1FF;
+    --secondhBlue: #ABC4FF;
+    --thirdBlue: #B6CCFE;
+    --fourthBlue: #CCDBFD;
+  
+    --placeholder: #676767;
+    --blueFont: #446FD6;
+  
+}
+
+.cont{
+
+    .tags{
+
+        .tag{
+            font-size: 16px;
+            background: var(--thirdBlue);
+            border-radius: 5px;
+            white-space: nowrap;
+            word-spacing: 3px;
+            cursor: pointer;
+
+            &:hover{
+                transform: scale(1.08);
+            }
+        }
+    }
+    
+
+    .listingSection{
+        
+
+        .search{
+
+
+            .searchbar{
+                background: var(--thirdBlue);
+                border-radius: 5px;
+
+                &:focus{
+                    outline: none;
+                }
+
+                &:focus+.icon{
+                    color: #446FD6;
+                }
+            }
+            .icon{
+                color: #676767;
+                left: 2.5% !important;
+                top: 12px !important;
+            }
+        }
+
+        .item{
+            .card{
+
+                img{
+                    background:#d6e3ff ;
+                    height: 150px;
+                    object-fit: contain;
+                }
+
+                .card-body{
+                    background: var(--fourthBlue);
+
+                    .card-subtitle{
+                        font-size: 13px !important;
+                        color: var(--placeholder);
+                    }
+                    .card-text{
+                        color: #446FD6;
+                    }
+                }
+            }
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+}

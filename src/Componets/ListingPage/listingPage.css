@@ -1,1 +1,57 @@
-/*# sourceMappingURL=listingPage.css.map */
+:root {
+  --backgrounColor: #E2EAFC;
+  --primaryPink: #FDCCEF;
+  --lightPink: #FFDDF6;
+  --firstBlue: #79A1FF;
+  --secondhBlue: #ABC4FF;
+  --thirdBlue: #B6CCFE;
+  --fourthBlue: #CCDBFD;
+  --placeholder: #676767;
+  --blueFont: #446FD6;
+}
+
+.cont .tags .tag {
+  font-size: 16px;
+  background: var(--thirdBlue);
+  border-radius: 5px;
+  white-space: nowrap;
+  word-spacing: 3px;
+  cursor: pointer;
+}
+.cont .tags .tag:hover {
+  transform: scale(1.08);
+}
+.cont .listingSection .search .searchbar {
+  background: var(--thirdBlue);
+  border-radius: 5px;
+}
+.cont .listingSection .search .searchbar:focus {
+  outline: none;
+}
+.cont .listingSection .search .searchbar:focus + .icon {
+  color: #446FD6;
+}
+.cont .listingSection .search .icon {
+  color: #676767;
+  left: 2.5% !important;
+  top: 12px !important;
+}
+.cont .listingSection .item .card img {
+  background: #d6e3ff;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cont .listingSection .item .card .card-body {
+  background: var(--fourthBlue);
+}
+.cont .listingSection .item .card .card-body .card-subtitle {
+  font-size: 13px !important;
+  color: var(--placeholder);
+}
+.cont .listingSection .item .card .card-body .card-text {
+  color: #446FD6;
+}
+.cont .listingSection .item:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=listingPage.css.map */

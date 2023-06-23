@@ -9,7 +9,7 @@ import './mainPage.css'
 
 const MainPage = () => {
   return (
-    <Container className='cont ps-5 position-relative' fluid>
+    <Container className='cont px-5 position-relative' fluid>
         <div className="circle1 position-absolute"></div>
         <div className="circle2 position-absolute"></div>
         <Row className='info d-flex align-items-center pt-5'>
