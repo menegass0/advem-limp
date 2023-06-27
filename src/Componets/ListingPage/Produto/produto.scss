@@ -1,0 +1,25 @@
+.item{
+    .card{ 
+        img{
+            background:#d6e3ff ;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        .card-body{
+            background: var(--fourthBlue);
+
+            .card-subtitle{
+                font-size: 13px !important;
+                color: var(--placeholder);
+            }
+            .card-text{
+                color: #446FD6;
+            }
+        }
+    }
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}

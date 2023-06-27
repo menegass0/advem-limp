@@ -1,4 +1,6 @@
 import React from 'react'
+import Produto from './Produto/Produto'
+
 
 import { Container, Row, Col } from 'react-bootstrap'
 import { FaSearch } from 'react-icons/fa'
@@ -15,7 +17,7 @@ const ListingPage = () => {
       <Row>
         <Col md={3}>
           <Row>
-            <h5 className='text-center'>Tags</h5>
+            <h5 className='text-center mb-4'>Tags</h5>
           </Row>
           {/* componente tag */}
           <Row className='tags gap-1'>
@@ -44,51 +46,13 @@ const ListingPage = () => {
             </Col>
           </Row>
           {/* componente item */}
-          <Row className='gap-2 d-flex justify-content-between'>
-            <Col sm={12} md={5} lg={3} className='item p-0 mb-3'>
-              <div className="card">
-                <img src={produto1} className="card-img-top" alt="..." fluid/>
-                <div className="card-body p-2 pt-3">
-                  <h6 class="card-subtitle mb-1">Desinfetante</h6>
-                  <h5 className="card-title">Algas Marinhas</h5>
-                  <h6 className="card-text text-end">R$15,00</h6>
-                </div>
-              </div>
-            </Col>
-
-            <Col sm={12} md={5} lg={3} className='item p-0 mb-3'>
-              <div className="card">
-                <img src={produto1} className="card-img-top" alt="..." fluid/>
-                <div className="card-body p-2 pt-3">
-                  <h6 class="card-subtitle mb-1">Desinfetante</h6>
-                  <h5 className="card-title">Algas Marinhas</h5>
-                  <h6 className="card-text text-end">R$15,00</h6>
-                </div>
-              </div>
-            </Col>
-
-            <Col sm={12} md={5} lg={3} className='item p-0 mb-3'>
-              <div className="card">
-                <img src={produto1} className="card-img-top" alt="..." fluid/>
-                <div className="card-body p-2 pt-3">
-                  <h6 class="card-subtitle mb-1">Desinfetante</h6>
-                  <h5 className="card-title">Algas Marinhas</h5>
-                  <h6 className="card-text text-end">R$15,00</h6>
-                </div>
-              </div>
-            </Col>
-
-            <Col sm={12} md={5} lg={3} className='item p-0 mb-3'>
-              <div className="card">
-                <img src={produto1} className="card-img-top" alt="..." fluid/>
-                <div className="card-body p-2 pt-3">
-                  <h6 class="card-subtitle mb-1">Desinfetante</h6>
-                  <h5 className="card-title">Algas Marinhas</h5>
-                  <h6 className="card-text text-end">R$15,00</h6>
-                </div>
-              </div>
-            </Col>
-
+          <Row className='gap-2 d-flex justify-content-between float-left'>
+            <Produto></Produto>
+            <Produto></Produto>
+            <Produto></Produto>
+            <Produto></Produto>
+            <Produto></Produto>
+            <Produto></Produto>
           </Row>
         </Col>
       </Row>
