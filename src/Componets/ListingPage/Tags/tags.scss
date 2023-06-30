@@ -1,0 +1,15 @@
+.tags{
+
+    .tag{
+        font-size: 16px;
+        background: var(--thirdBlue);
+        border-radius: 5px;
+        white-space: nowrap;
+        word-spacing: 3px;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.08);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.tags .tag {
+  font-size: 16px;
+  background: var(--thirdBlue);
+  border-radius: 5px;
+  white-space: nowrap;
+  word-spacing: 3px;
+  cursor: pointer;
+}
+.tags .tag:hover {
+  transform: scale(1.08);
+}/*# sourceMappingURL=tags.css.map */
